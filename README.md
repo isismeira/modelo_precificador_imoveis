@@ -1,4 +1,4 @@
-# Modelo de Previsão de Preços de Imóveis na Califórnia
+# 📈 Modelo de Previsão de Preços de Imóveis na Califórnia
 
 Este projeto tem como objetivo construir um modelo de aprendizado de máquina para prever os preços de imóveis na Califórnia, utilizando o dataset de preços de imóveis do repositório StatLib, baseado no censo da Califórnia de 1990. O resultado deste modelo será utilizado para alimentar um sistema de análise e recomendação de investimento em imóveis.
 
@@ -6,7 +6,7 @@ A métrica de desempenho escolhida para avaliar o modelo é a **Raiz do Erro Qua
 
 Este projeto foi orientado pelo livro *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems* do autor *Aurélien Géron*.
 
-## Estrutura do Projeto
+## 🗂️ Estrutura do Projeto
 
 O projeto é desenvolvido em um notebook Jupyter (ou Google Colab) e segue as seguintes etapas:
 
@@ -38,7 +38,7 @@ O projeto é desenvolvido em um notebook Jupyter (ou Google Colab) e segue as se
     *   **Análise dos Melhores Modelos**: Análise da importância dos atributos no modelo final.
 11. **Avaliação do Sistema no Conjunto de Testes**: Avaliação do desempenho do modelo final no conjunto de testes e cálculo do intervalo de confiança para o erro de generalização.
 
-## Dataset
+## 💾 Dataset
 
 O dataset utilizado é o **Conjunto de Dados de Preços de Imóveis da Califórnia** do repositório StatLib, baseado no censo da Califórnia de 1990. Os atributos incluem:
 
@@ -53,7 +53,7 @@ O dataset utilizado é o **Conjunto de Dados de Preços de Imóveis da Califórn
 *   `median_house_value` (valor médio do imóvel - **atributo alvo**)
 *   `ocean_proximity` (proximidade do mar - atributo categórico)
 
-## Como Executar
+## ⚙️ Como Executar
 
 Para replicar este projeto, você pode:
 
@@ -61,11 +61,11 @@ Para replicar este projeto, você pode:
 2.  Abrir o notebook Jupyter (ou no Google Colab).
 3.  Executar as células sequencialmente.
 
-## Resultados
+## 📊 Resultados
 
 Após o treinamento e ajuste dos modelos, o modelo de Florestas Aleatórias com hiperparâmetros otimizados apresentou o melhor desempenho no conjunto de testes. O **RMSE final obtido foi de 48424.96**.
 
-## Próximos Passos
+## 🎯 Próximos Passos
 
 Alguns passos futuros para aprimorar este projeto incluem:
 
@@ -74,7 +74,7 @@ Alguns passos futuros para aprimorar este projeto incluem:
 *   Ajustar ainda mais os hiperparâmetros com técnicas como Random Search.
 *   Implementar validação cruzada aninhada para uma avaliação mais robusta.
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 *   Python
 *   Pandas
